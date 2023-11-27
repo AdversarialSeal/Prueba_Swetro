@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ActividadAnalyzer
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# Prueba_Swetro
+Este mini proyecto es una prueba técnica para el ingreso a la empresa Swetro, es una aplicación web que al ingresar algunos datos no valida si estos son normales o si son malicosas
+>>>>>>> ddbe51a1c41600aa9d9158cad912e341fd3c2aa3
