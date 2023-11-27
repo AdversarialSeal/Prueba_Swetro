@@ -1,26 +1,30 @@
-<form [formGroup]="myForm" (ngSubmit)="onSubmit()">
-  <img src="assets/logo.jpg" alt="Logo de la empresa" class="logo">
+<div>
+  <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+    <img src="assets/logo.jpg" alt="Logo de la empresa" class="logo">
 
-    <label for="des">Duracion en segundos:</label>
-    <input type="text" id="dis" name="dis" formControlName="des" required>
+    <p>Por favor ingresa los siguientes datos obtenidos de tus actividades de Runnnig y haz clic en "Enviar".</p>
   
-    <label for="dem">Distancia en metros:</label>
-    <input type="text" id="dem" name="dem" formControlName="dem" required>
-
-    <label for="dem">Pasos:</label>
-    <input type="text" id="pasos" name="pasos" formControlName="pasos" required>
-
-    <label for="vmemps">Velocidad media en metros por segundo:</label>
-    <input type="text" id="vmemps" name="vmemps" formControlName="vmemps" required>
-
-    <label for="rpempk">Ritmo promedio en minutos por Kilómetro:</label>
-    <input type="text" id="rpempk" name="rpempk" formControlName="rpempk" required>
-
-    <label for="datnm">Desnivel acumulado total en metros:</label>
-    <input type="text" id="datnm" name="datnm" formControlName="datnm" required>
-
-    <label for="fcmelpm">Frecuencia cardíaca media en latidos por minuto:</label>
-    <input type="text" id="fcmelpm" name="fcmelpm" formControlName="fcmelpm" required>
+      <label for="des">Duracion en segundos:</label>
+      <input type="text" id="dis" name="dis" formControlName="des" required>
+    
+      <label for="dem">Distancia en metros:</label>
+      <input type="text" id="dem" name="dem" formControlName="dem" required>
   
-    <button type="submit">Enviar</button>
-  </form>
+      <label for="pasos">Pasos:</label>
+      <input type="text" id="pasos" name="pasos" formControlName="pasos" required>
+  
+      <label for="vmemps">Velocidad media en metros por segundo:</label>
+      <input type="text" id="vmemps" name="vmemps" formControlName="vmemps" required>
+  
+      <label for="rpempk">Ritmo promedio en minutos por Kilómetro:</label>
+      <input type="text" id="rpempk" name="rpempk" formControlName="rpempk" required>
+  
+      <label for="datnm">Desnivel acumulado total en metros:</label>
+      <input type="text" id="datnm" name="datnm" formControlName="datnm" required>
+  
+      <label for="fcmelpm">Frecuencia cardíaca media en latidos por minuto:</label>
+      <input type="text" id="fcmelpm" name="fcmelpm" formControlName="fcmelpm" required>
+    
+      <button type="submit">Enviar</button>
+    </form>
+</div>
