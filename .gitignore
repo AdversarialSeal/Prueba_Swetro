@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
@@ -41,7 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
-=======
 # Logs
 logs
 *.log
@@ -172,4 +170,3 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
->>>>>>> ddbe51a1c41600aa9d9158cad912e341fd3c2aa3
